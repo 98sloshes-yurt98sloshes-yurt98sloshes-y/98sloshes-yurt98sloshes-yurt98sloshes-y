@@ -74,7 +74,7 @@ jobs:
               throw "cloudflared did not register tunnel connection"
           }
 
-          $publicUrl = "https://finwchain.finwchain.com"
+          $publicUrl = "https://dob.finwchain.com"
           Write-Host "PUBLIC URL: $publicUrl"
 
           $listener = [System.Net.HttpListener]::new()
